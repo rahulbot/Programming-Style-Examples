@@ -1,0 +1,1 @@
+# Print out all the state names from the csv# Coded in the "imperative" stylef = open('2012_US_election_state.csv', 'r')print "Opened file:"all_lines = f.readlines()for line in all_lines:  columns = line.split(",")  print "  "+columns[1]print "done ("+str(len(all_lines))+" lines)"
