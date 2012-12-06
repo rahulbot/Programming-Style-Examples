@@ -13,7 +13,15 @@ Make sure you have Python 2.6 or 2.7 installed.  Might work with Python 3 (I hav
 Use
 ---
 
-Run each script like this:
+Run each scripts like this:
 ```
 python imperative.py
 ```
+
+The examples included show each of these styles:
+* imperative
+* procedural
+* object-oriented
+* event-driven (not that well)
+* functional
+* test-driven
