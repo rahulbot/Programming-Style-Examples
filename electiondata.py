@@ -12,7 +12,7 @@ class ElectionResults:
     for line in self.all_lines:
       columns = line.split(',')
       all_names.append(columns[1])
-    return all_names
+    return all_names[1:]
 
   def state_count(self):
-    return len(self.all_lines)
+    return len(self.states())
