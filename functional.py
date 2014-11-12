@@ -7,6 +7,7 @@ print "Opened file:"
 all_lines = f.readlines()
 
 # this is a really clever way to do things!
+# this is another useful comment
 names = [line.split(",")[1] for line in all_lines]
 
 for name in names:
