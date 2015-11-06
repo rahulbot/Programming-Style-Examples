@@ -2,7 +2,7 @@
 # Showing the "functional" style
 
 f = open('2012_US_election_state.csv', 'r')
-print "Opened file:"
+print "Opened file:" # this code rocks!
 
 all_lines = f.readlines()
 
