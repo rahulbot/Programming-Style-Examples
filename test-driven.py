@@ -11,8 +11,9 @@ class ElectionResultsTest(unittest.TestCase):
 
     def testLoad(self):
         self.results.load()
-        assert self.results!=None
-        assert self.results.file!=None
+        assert self.results is not None
+        assert self.results.file is not None
+        assert len(self.results.all_lines) > 0
         
     def testStateCount(self):
         self.results.load()
